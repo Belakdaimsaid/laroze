@@ -1,0 +1,397 @@
+html{scroll-behavior: smooth;} 
+.contener{
+ 
+}
+.log{
+   overflow: hidden;
+}
+.menu{
+  position: fixed;
+  background-color: blueviolet;
+  width: 100%;
+  height: 60px;
+  margin-left: 0%;
+  border-radius: 20px;
+ margin-top: -7.8px;
+}
+  
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 17%;
+  margin-left: 38%;
+ margin-top: -90px;
+}
+li a{
+  text-decoration:none;
+  color: white;
+  font-size: 34px;
+  font-family: serif;
+ 
+}
+li a:active{
+  background-color:  rgb(238, 6, 6);
+    border-radius: 8px;
+    
+  }
+  .serv h4{
+    color: aliceblue;
+    margin-left: 12%;
+    font-family:  fantasy;
+    font-size: 40px;
+    margin-top: -0px;
+}
+ /* logo*/
+#log{
+  position: fixed;
+  width: 100px;
+  height:68px ;
+  border-end-end-radius: 600px;
+  border-start-start-radius: 600px;
+  border-top-right-radius: 600px;
+  margin-top: -7.8px;
+  
+}
+.logo{
+  background-color: blanchedalmond;
+  width: 13%;
+}
+#home{
+ 
+  background-image: url(image/grains-and-a-cup.jpeg);
+  width: 100%;
+  height: 800px;
+  border-radius: 20px;
+  
+}
+#f1{
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+#f2{
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+  margin-left: 70%;
+}
+#home h1{
+  margin-left: 20%;
+  margin-top: -26%;
+  font-size: 80px;
+  color: rgb(246, 5, 214);
+
+}
+#home h4{
+  margin-left: 30%;
+  margin-top: -4%;
+  font-size: 60px;
+  color: rgb(246, 5, 214);
+
+}
+#f3{
+  margin-top: 2%;
+  width: 10%;
+  height: 16%;
+  border-radius: 50%;
+  
+}
+#caf{
+  
+  margin-top: -9%;
+  margin-left: 10%;
+  font-size: 90px;
+
+}
+
+#f4{
+  width: 20%;
+  margin-right: 15px;
+  margin-left: 30px;
+  border-radius: 20px;
+
+}
+#f5{
+  width: 20%;
+   height: 180px;
+   margin-right: 15px;
+   margin-left: 30px;
+ border-radius: 20px;
+}
+#f6{
+  width: 20%;
+  height:180px;
+  margin-right: 10px;
+  margin-left: 70px;
+  border-radius: 20px;
+}
+ #com{
+  width: 50%;
+  height: 80px;
+  margin-top: 4%;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 2%;
+ }
+ #comm{
+  height: 40px;
+  color: white ;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: blueviolet;
+
+ }
+#comm:hover{
+  background-color: brown;
+}
+
+#f7{
+  width: 20%;
+  margin-right: 15px;
+  margin-left: 30px;
+  border-radius: 20px;
+
+}
+#f7{
+  width: 20%;
+   height: 180px;
+   margin-right: 15px;
+   margin-left: 30px;
+ border-radius: 20px;
+}
+#f8{
+  width: 20%;
+  height:180px;
+  margin-right: 10px;
+  margin-left: 40px;
+  border-radius: 20px;
+}
+
+#f9{
+  width: 20%;
+  height:180px;
+  margin-top: 6%;
+  margin-right: 10px;
+  margin-left: 70px;
+  border-radius: 20px;
+}
+#juss{
+  margin-top: -9%;
+  margin-left: 10%;
+  font-size: 90px;
+
+}
+#a1{
+  margin-top: %;
+  width: 10%;
+  height: 12%;
+  border-radius: 50%;
+  
+}
+
+
+#a2{
+  width: 20%;
+   height: 180px;
+   margin-right: 15px;
+   margin-left: 30px;
+ border-radius: 20px;
+}
+#a3{
+  width: 20%;
+  height:180px;
+  margin-right: 10px;
+  margin-left: 40px;
+  border-radius: 20px;
+}
+
+#a4{
+  width: 20%;
+  height:180px;
+  margin-top: 6%;
+  margin-right: 10px;
+  margin-left: 70px;
+  border-radius: 20px;
+  overflow:hidden ;
+  transition: all 1s;
+}
+#envo{
+
+  margin-right: 80px;
+  margin-left: 155px;
+  width: 90px;
+  height: 40px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 15px;
+  font-size: 16px;
+  border: none;
+}
+#envo:hover{
+  background-color: brown;
+
+}
+#commm{
+  width: 50%;
+  height: 80px;
+  margin-top: 4%;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 2%;
+ }
+ #a2:hover{
+  
+ }
+@media screen and (max-width:576px){.menu{
+  width: 100%;
+   background-color: blue;
+  height: 80%;
+  position: relative;
+  margin-top: -0px;
+}
+.logo{
+  width: 100%;
+  height: 700px;
+}
+ul{
+  
+  width: 100%;
+  flex-direction: column; 
+  TEXT-ALIGN: center;
+  margin-top: 40px;
+  MARGIN-LEFT: -70px;
+ 
+}
+ul li{
+ margin-top: 40px;
+ margin-left: px;
+}
+li a{
+text-align: center;
+color: white;
+}
+ #log{
+  position: relative;
+  margin-top: 2px;
+  margin-left: 40%;
+ }
+#home{
+  background-image: url(image/grains-and-a-cup.jpeg);
+    width: 100%;
+    height: 518px;
+    border-radius: 20px;
+    margin-top:-140px ;
+}
+
+#home h1{
+  margin-left: 13%;
+  margin-top: -53%;
+  font-size: 47px;
+  color: rgb(246, 5, 214);
+}
+
+ #home h4{
+  margin-left: 19%;
+    margin-top: -7%;
+    font-size: 40px;
+    color: rgb(246, 5, 214);
+}
+#f3{
+ width: 100px;
+ height: 150px;
+}
+#caf{
+  margin-left: 100px;
+  font-size: 79px;
+margin-top: -120px;
+}
+#f4{
+  width: 100%;
+}
+#f5{
+  width: 100%;
+  height: 400px;
+}
+#f6{
+  width: 100%;
+  height: 400px;
+  margin-left: 20px;
+}
+#f7{
+  width: 100%;
+  height: 400px;
+}
+#f8{
+  height: 400px;
+  width: 100%;
+}
+#f9{
+  height: 400px;
+  width: 90%;
+  margin-left: 18px;
+}
+
+#a2{
+  width: 100%;
+  height: 400px;
+  margin-left: 69px;
+}
+#a3{
+  height: 400px;
+  width: 100%;
+}
+#a4{
+  height: 400px;
+  width: 100%;
+}
+#a5{
+  height: 400px;
+  width: 100%;
+}
+#envo{
+  display: none;
+}
+#commm {
+  width: 50%;
+  height: 80px;
+  margin-top: 9%;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 22%;
+ } 
+ #juss {
+  margin-top: -21%;
+  margin-left: 35%;
+  font-size: 90px;
+ }
+ 
+ #com {
+  width: 50%;
+  height: 84px;
+  margin-top: 12%;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-left: 12%;
+}
+#a1 {
+  margin-top: %;
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+}
+.serv h4{
+  color: aliceblue;
+  margin-left: 20%;
+  font-family: emoji;
+  font-size: 40px;
+  margin-top: 5px;
+}
+
+ }
+
+
+
+
+
